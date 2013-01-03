@@ -31,6 +31,3 @@ CustoMT2 - Created By Jumarras.
 	[]Opcion para añadir nuevas items/mobs.
 	[]Centralizar cambio de idiomas.
 	[]Pequeño rediseño para mas facil utilizacion.
-
-************************************************************************
-************************************************************************
