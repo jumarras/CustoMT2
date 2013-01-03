@@ -43,7 +43,7 @@ elseif($_GET['action'] == 'edit'){
 }
 else{
 	$query = mysql_query('SELECT apply FROM player.item_attr ORDER BY apply ASC');
-	$lang['body'] .= '<form action="index.php?page=itemattr&action=show" method="post"><select name="apply">';
+	$lang['body'] .= '<form action="index.php?page=itemattr&action=show" method="post">Bonus: <select name="apply">';
 	while($row = mysql_fetch_assoc($query)){
 		$lang['body'] .= '<option value="'.$row['apply'].'">'.$row['apply'].'</option>';
 	}

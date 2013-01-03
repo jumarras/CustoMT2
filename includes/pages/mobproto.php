@@ -158,7 +158,7 @@ elseif($_GET['action'] == 'edit'){
 }
 else{
 	$query = mysql_query('SELECT locale_name, vnum FROM player.mob_proto ORDER BY locale_name ASC');
-	$lang['body'] = '<form action="index.php?page=mobproto&action=show" method="post"><select name="vnum">';
+	$lang['body'] .= '<form action="index.php?page=mobproto&action=show" method="post">MOB: <select name="vnum">';
 	while($row = mysql_fetch_assoc($query)){
 		$lang['body'] .= '<option value="'.$row['vnum'].'">'.$row['locale_name'].'</option>';
 	}

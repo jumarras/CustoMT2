@@ -12,6 +12,8 @@ CustoMT2 - Created By Jumarras.
 	[x]Añadida la opcion de buscar objetos editados.
 	[x]Añadida la opcion de buscar registro de objetos de un usuario.
 	[x]Añadida la opcion para cambiar los bonus 1-5.
+	[x]Añadida la opcion para editar Refineproto.
+	[x]Pequeños bugs editados.
 	
 *- Version 1.0 -*
 
@@ -28,7 +30,6 @@ CustoMT2 - Created By Jumarras.
 *- Futuras Versiones -*
 	
 	[]Opcion para editar bonus 6-7.
-	[]Opcion para editar Refineproto.
 	[]Opcion para añadir nuevas items/mobs.
 	[]Centralizar cambio de idiomas.
 	[]Pequeño rediseño para mas facil utilizacion.

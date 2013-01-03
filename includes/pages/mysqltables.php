@@ -1,7 +1,7 @@
 <?php
 $lang['title'] = $lang['mysql'];
 if($_GET['action'] == 'listsatabases'){
-	$db = $_GET['db'];
+	$db = mysql_real_escape_string($_GET['db']);
 	$query = mysql_query('SHOW TABLES FROM '.$db);
 	while($row = mysql_fetch_array($query)){
 		$query2 = mysql_query('CHECK TABLE '.$db.'.'.$row[0]);
@@ -11,8 +11,8 @@ if($_GET['action'] == 'listsatabases'){
 	}
 }
 elseif($_GET['action'] == 'repair'){
-	$table = $_GET['table'];
-	$db = $_GET['db'];
+	$table = mysql_real_escape_string($_GET['table']);
+	$db = mysql_real_escape_string($_GET['db']);
 	$query = mysql_query('REPAIR TABLE '.$db.'.'.$table);
 	while($row = mysql_fetch_array($query)){
 		$lang['body'] .= $row[0].' '.$row[3].'<br>';

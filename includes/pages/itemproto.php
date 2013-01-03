@@ -1,7 +1,7 @@
 <?php
 $lang['title'] = $lang['itemproto'];
 if($_GET['action'] == 'show'){
-	$vnum = $_POST['vnum'];
+	$vnum = mysql_real_escape_string($_POST['vnum']);
 	$query = mysql_query('SELECT locale_name, type, size, antiflag, refined_vnum, refine_set FROM player.item_proto WHERE vnum = "'.$vnum.'"') or die(mysql_error());
 	while($row = mysql_fetch_assoc($query)){
 		$lang['body'] .= '
@@ -32,7 +32,7 @@ elseif($_GET['action'] == 'edit'){
 else
 {
 	$query = mysql_query('SELECT locale_name, vnum FROM player.item_proto ORDER BY locale_name ASC');
-	$lang['body'] .= '<form action="index.php?page=itemproto&action=show" method="post"><select name="vnum">';
+	$lang['body'] .= '<form action="index.php?page=itemproto&action=show" method="post">Item: <select name="vnum">';
 	while($row = mysql_fetch_assoc($query)){
 		$lang['body'] .= '<option value="'.$row['vnum'].'">'.$row['locale_name'].'</option>';
 	}
