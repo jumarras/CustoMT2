@@ -11,12 +11,13 @@
 ****************************************************************************
 
 *- Version 1.1 -*
+
 	[x]Añadida la opcion de crear objetos.
-	
 	[x]Añadida la opcion de buscar objetos editados.
 	[x]Añadida la opcion de buscar registro de objetos de un usuario.
 	
 *- Version 1.0 -*
+
 	[x]Añadida pequeña presentacion al inicio.
 	[x]Añadida la opcion para añadir/editar/eliminar administradores dentro del juego.
 	[x]Añadida la opcion para editar las tiendas dentro del juego.
@@ -28,6 +29,7 @@
 	[x]Añadida la opcion para cambiar la contraseña de la MySQL.
 
 *- Futuras Versiones -*
+
 	[]Opcion para editar bonus de objetos del juego.
 	[]Opcion para editar Refineproto.
 	[]Opcion para añadir nuevas items/mobs.
