@@ -12,6 +12,7 @@
 
 *- Version 1.1 -*
 	[x]Añadida la opcion de crear objetos.
+	
 	[x]Añadida la opcion de buscar objetos editados.
 	[x]Añadida la opcion de buscar registro de objetos de un usuario.
 	
