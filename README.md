@@ -1,12 +1,12 @@
 ****************************************************************************
 ****************************************************************************
-****			CustoMT2 - Created By Jumarras. 		****
+****			CustoMT2 - Created By Jumarras. 						****
 ****************************************************************************
 ****************************************************************************
-****	Esta obra está licenciada bajo la Licencia Creative Commons	****
-****	Atribución-NoComercial-SinDerivadas 3.0 Unported.		****
-****	Para ver una copia de esta licencia,				****
-****	visita http://creativecommons.org/licenses/by-nc-nd/3.0/.	****
+****	Esta obra está licenciada bajo la Licencia Creative Commons		****
+****	Atribución-NoComercial-SinDerivadas 3.0 Unported.				****
+****	Para ver una copia de esta licencia,							****
+****	visita http://creativecommons.org/licenses/by-nc-nd/3.0/.		****
 ****************************************************************************
 ****************************************************************************
 
