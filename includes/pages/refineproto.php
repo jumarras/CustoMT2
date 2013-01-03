@@ -1,0 +1,1 @@
+<?php$lang['title'] = $lang['refineproto'];if($_GET['action'] == 'show'){}elseif($_GET['action'] == 'edit'){}else{}?>

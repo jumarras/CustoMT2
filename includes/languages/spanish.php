@@ -1,0 +1,31 @@
+<?php
+$lang['name'] = 'CustoMt2';
+$lang['language'] = 'Spanish';
+$lang[''] = '';
+$lang['editeditems'] = 'Buscar Objetos Editados';
+$lang['createobject'] = 'Crear Objeto';
+$lang['items'] = 'Objetos';
+$lang['itemfinder'] = 'Buscar Log de Objetos';
+$lang['refineproto'] = 'Refine Proto';
+$lang['itemproto'] = 'Item Proto';
+$lang['mobproto'] = 'Mob Proto';
+$lang['itemattr'] = 'Item Attr';
+$lang['mysqltables'] = 'Analizar Tablas';
+$lang['editmobproto'] = 'Editar Mob Proto';
+$lang['editrefineproto'] = 'Editar Refine Proto';
+$lang['edititemproto'] = 'Editar Item Proto';
+$lang['edititembonus'] = 'Editar Item Attr';
+$lang['itemobproto'] = 'Proto-s';
+$lang['addquery'] = 'Añadir Query';
+$lang['mysql'] = 'MySQL';
+$lang['mysqlpassword'] = 'Editar Contraseña MySQL';
+$lang['yangbug'] = 'Yang Bug';
+$lang['checkbugs'] = 'Comprobar Bugs';
+$lang['editadmin'] = 'Editar Administradores';
+$lang['admin'] = 'Administradores';
+$lang['editshop'] = 'Editar Tiendas';
+$lang['shop'] = 'Tienda';
+$lang['metiname'] = WEBNAME;
+$lang['copyright'] = 'CustoMT2, Created By Jumarras. All Rights reserved.';
+$lang['home'] = 'Bienvenido a CustoMt2. Aqui aqui tienes unas cuantas opciones para poder editar MySQL de tu Metin2 a tu gusto. Si no encuentras lo que buscas, tambien tienes una opcion para poder añadir una consulta personalizada en la Base de Datos.';
+?>
