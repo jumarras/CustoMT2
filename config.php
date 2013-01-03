@@ -1,10 +1,10 @@
 <?php
 //------------------ MYSQL ------------------ \\
-define('GAME_HOST', '91.121.210.114');
-define('GAME_USER', 'root');
-define('GAME_PASSWORD', '001160xxxele');
+define('GAME_HOST', '');
+define('GAME_USER', '');
+define('GAME_PASSWORD', '');
 //----------------- GENERAL ----------------- \\
-error_reporting(1);
-define('WEBNAME', 'Metin2Elements');
+error_reporting(0);
+define('WEBNAME', '');
 define('LANGUAGE', 'spanish');
 ?>
