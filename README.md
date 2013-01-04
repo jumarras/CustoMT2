@@ -2,6 +2,7 @@
 ****************************************************************************
 
 English
+
 CustoMT2 - Created By Jumarras.
 
 ****************************************************************************
@@ -34,12 +35,14 @@ CustoMT2 - Created By Jumarras.
 	[]Option to add new items/mob.
 	[]Centralize language change.
 	[]Small redesign for more easy use.
+	[]Add English language.
 
 
 ****************************************************************************
 ****************************************************************************
 
 Spanish
+
 CustoMT2 - Creado Por Jumarras.
 
 ****************************************************************************
@@ -72,3 +75,4 @@ CustoMT2 - Creado Por Jumarras.
 	[]Opcion para añadir nuevas items/mobs.
 	[]Centralizar cambio de idiomas.
 	[]Pequeño rediseño para mas facil utilizacion.
+	[]Añadir lenguage en ingles.
