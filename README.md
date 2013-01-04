@@ -27,7 +27,7 @@ CustoMT2 - Created By Jumarras.
 	[x]Added option to edit analyze/repair tables.
 	[x]Added option to add custom querys.
 	[x]Added option to find objects whith yang bug.
-	[x]Added option to to change MySQL password.
+	[x]Added option to change MySQL password.
 
 *- Future Versions -*
 
