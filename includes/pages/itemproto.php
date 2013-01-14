@@ -36,6 +36,6 @@ else
 	while($row = mysql_fetch_assoc($query)){
 		$lang['body'] .= '<option value="'.$row['vnum'].'">'.$row['locale_name'].'</option>';
 	}
-	$lang['body'] .= '<input type="submit" name="submit" value="Editar"></select></form>';
+	$lang['body'] .= '</select><input type="submit" name="submit" value="Editar"></form>';
 }
 ?>

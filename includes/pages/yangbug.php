@@ -8,14 +8,14 @@ if($_GET['action'] == 'edititem'){
 		$query = mysql_query('SELECT vnum FROM player.item_proto WHERE locale_name = "'.$item.'"');
 		$item = mysql_fetch_assoc($query);
 		$query = mysql_query('UPDATE player.item_proto SET gold = "'.$sale.'", shop_buy_price = "'.$buy.'" WHERE vnum = "'.$item['vnum'].'"');
-		$lang['body'] = 'Has editado el objeto con exito.';
+		$lang['body'] = 'Has editado el objeto con exito.'.$item['vnum'];
 	}
 	else{
 		$vnum = mysql_real_escape_string($_GET['vnum']);
 		$query = mysql_query('SELECT locale_name, gold, shop_buy_price FROM player.item_proto WHERE vnum = "'.$vnum.'"');
 		while($row = mysql_fetch_assoc($query)){
 			$lang['body'] =  '
-			<form method="post" action="index.php?page=yangbug&action=edititems">
+			<form method="post" action="index.php?page=yangbug&action=edititem">
 				Objeto: <input type="text" name="item" value="'.$row['locale_name'].'" readonly="readonly"><br>
 				Precio de compra: <input type="text" name="buy" value="'.$row['gold'].'"><br>
 				Precio de venta: <input type="text" name="sale" value="'.$row['shop_buy_price'].'"><br>

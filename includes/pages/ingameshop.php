@@ -23,7 +23,7 @@ elseif($_GET['action'] == 'editnpcitems'){
 		$npc_vnum = mysql_real_escape_string($_POST['npc']);
 		$item_vnum = mysql_real_escape_string($_POST['item']);
 		$count = mysql_real_escape_string($_POST['count']);
-		$query = mysql_query('UPDATE player.shop_item SET item_vnum = "'.$item_vnum.'", count = "'.$count.'" WHERE shop_vnum = "'.$npc_vnum.'"');
+		$query = mysql_query('UPDATE player.shop_item SET item_vnum = "'.$item_vnum.'", count = "'.$count.'" WHERE shop_vnum = "'.$npc_vnum.'" AND item_vnum = "'.$item_vnum.'"');
 		$lang['body'] = 'Has editado el objeto con exito.';
 	}
 	elseif(isset($_GET['npc']) && isset($_GET['item'])){

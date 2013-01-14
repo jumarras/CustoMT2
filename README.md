@@ -8,6 +8,17 @@ CustoMT2 - Created By Jumarras.
 ****************************************************************************
 ****************************************************************************
 
+*- Version 1.2 -*
+
+	[x]Added option to protect folder.
+	[x]Added option to edit users from folder access.
+	[x]Added option to make install easier.
+	[x]Added option to edit CuustoMt2 configuration.
+	[x]Bugs corrected.
+		[x]Corrected option to edit ingame shop items.
+		[x]Corrected option to edit items with yang bug.
+		[x]Some bugs.
+
 *- Version 1.1 -*
 
 	[x]Added option to create customm items.
@@ -29,14 +40,6 @@ CustoMT2 - Created By Jumarras.
 	[x]Added option to find objects whith yang bug.
 	[x]Added option to change MySQL password.
 
-*- Future Versions -*
-
-	[]Option to edit 6-7 bonus.
-	[]Option to add new items/mob.
-	[]Centralize language change.
-	[]Small redesign for more easy use.
-	[]Add English language.
-
 
 ****************************************************************************
 ****************************************************************************
@@ -48,6 +51,17 @@ CustoMT2 - Creado Por Jumarras.
 ****************************************************************************
 ****************************************************************************
 
+*- Version 1.2 -*
+
+	[x]Añadida la opcion para protejer la carpeta con contraseña.
+	[x]Añadida la opcion para editar usuarios de acceso a la carpeta.
+	[x]Añadida opcion para que sea mas facil la instalacion.
+	[x]Añadida la opcion para editar la configuracion de CustoMT2.
+	[x]Bugs corregidos.
+		[x]Corregida la opcion de editar objetos de tiendas.
+		[x]Corregida la opcion de editar objetos con bug de yang.
+		[x]Bugs varios.
+	
 *- Version 1.1 -*
 
 	[x]Añadida la opcion de crear objetos.
@@ -68,11 +82,3 @@ CustoMT2 - Creado Por Jumarras.
 	[x]Añadida la opcion para poder añadir querys.
 	[x]Añadida la opcion de buscar objetos con bug de monedas.
 	[x]Añadida la opcion para cambiar la contraseña de la MySQL.
-
-*- Futuras Versiones -*
-
-	[]Opcion para editar bonus 6-7.
-	[]Opcion para añadir nuevas items/mobs.
-	[]Centralizar cambio de idiomas.
-	[]Pequeño rediseño para mas facil utilizacion.
-	[]Añadir lenguage en ingles.
